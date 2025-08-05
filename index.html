@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Un juego simple de adivinanza de números en JavaScript.">
+    <meta name="keywords" content="JavaScript, juego, adivinanza, números, web">
+    <meta name="author" content="Humberto Cárdenas">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>JS Game</title>
+    <title>JS Game by Humberto Cárdenas</title>
 </head>
 
 <body>
@@ -21,7 +26,7 @@
                     <h1></h1>
                     <p class="texto__parrafo"></p>
                 </div>
-                <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
+                <input type="number" id="valorUsuario" min="1" max="50" class="container__input">
                 <div class="chute container__botones">
                     <button onclick="verificarIntento();" class="container__boton">Intentar</button>
                     <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
